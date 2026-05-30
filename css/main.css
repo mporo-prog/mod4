@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    width: 100vw;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color: #7F1F2F;
+    border: none;
+}
+.navigation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20%;
+    height: 100vh;
+    a{
+        font-size: clamp(30px, 3vw, 50px);
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        button{
+            width: 100%;
+            text-align: start;
+        }
+    }
+    .footer{
+        width: 100%;
+        button{
+            width: 100%;
+        }
+    }
+}
