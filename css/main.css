@@ -9,15 +9,8 @@ body{
     background-color: #000;
     height: 400vh;
 }
-section{
-    width: var(--navFooter);
-    height: 100vh;
-    overflow: hidden;
-    border-right: #F7F5E3 5px solid;
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+h1, h2, p{
+    color: #F7F5E3;
 }
 nav{
     display: flex;
@@ -43,6 +36,7 @@ nav{
 }
 main{
     width: 100%;
+    padding-left: var(--navFooter);
 }
 footer{
     bottom: 0;
@@ -59,4 +53,14 @@ footer{
         font-size: 15px;
         font-weight: 500;
     }
+}
+.navAndFooter{
+    width: var(--navFooter);
+    height: 100vh;
+    overflow: hidden;
+    border-right: #F7F5E3 5px solid;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
