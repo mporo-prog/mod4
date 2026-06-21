@@ -1,19 +1,27 @@
-<a href="index.html" data-test="closeButton">back</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <a href="index.html">главная</a>
+        <a href="aboutUs.html">о нас</a>
+        <a href="courses.html">курсы</a>
+        <a href="events.html">дод</a>
+        <a href="lyceum.html">лекторий</a>
+        <a href="https://mporo-prog.github.io/Resposive_poster">афиша</a>
+        <a href="merch.html">мерч</a>
+    </nav>
+    <div>
+        <a href="index.html">+</a>
+    </div>
+</body>
+</html>
 
 
-
-<a href="index.html">главная</a>
-<a href="aboutUs.html">about us</a>
-<a href="courses.html">courses</a>
-<a href="events.html">event</a>
-<a href="lyceum.html">lyceum</a>
-<a href="https://mporo-prog.github.io/Resposive_poster">afisha</a>
-<a href="merch.html">merch</a>
-
-<script>
-    const urlParams = new URLSearchParams(window.location.search);
-    const returnUrl = urlParams.get('return');
-    if (returnUrl) {
-        document.querySelector("[data-test='closeButton']").href = returnUrl;
-    }
-</script>

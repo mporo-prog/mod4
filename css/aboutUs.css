@@ -1,3 +1,74 @@
 main{
     padding-bottom: 2%;
 }
+.secondSection{
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    .line{
+        display: flex;
+        flex-direction: column;
+        gap: 4%;
+        height: 35vw;
+        width: 105%;
+        margin-left: -2.5%;
+        .lines{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 8%;
+            div{
+                background-color: #5E83E6;
+                width: 2vw;
+                height: 100%;
+                border-radius: 15%;
+            }
+        }
+        .values{
+            background-color: #5E83E6;
+            width: 100%;
+            height: 80%;
+            display: flex;
+            align-items: center;
+            padding: 2%;
+            justify-content: space-between;
+            div{
+                height: 100%;
+                width: 32%;
+                background-color: #F7F5E3;
+                border-radius: 2vw;
+                display: flex;
+                flex-direction: column;
+                gap: 4%;
+                align-items: center;
+                justify-content: center;
+                h3{
+                    font-size: clamp(10px, 3.5vw, 60px);
+                    text-align: center;
+                    color: #000;
+                    font-family: "Bebas";
+                    line-height: 100%;
+                }
+                p{
+                    font-size: clamp(8px, 2vw, 40px);
+                    text-align: center;
+                    width: 80%;
+                    color: #000;
+                }
+            }
+            .mainDiv{
+                background-color: #7F1F2F;
+                h3{
+                    font-size: clamp(20px, 4vw, 80px);
+                    color: #F7F5E3;
+                    font-family: "Louver";
+                }
+            }
+        }
+        @media (max-width: 1024px) {
+            width: 109%;
+            height: 40vw;
+            margin-left: -4.5%;
+        }
+    }
+}
