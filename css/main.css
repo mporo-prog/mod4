@@ -1,66 +1,25 @@
-:root{
-    --navFooter: 15%;
-    --navPadding: 10px;
-}
-body{
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    background-color: #000;
-    height: 400vh;
-}
-h1, h2, p{
-    color: #F7F5E3;
-}
-nav{
+.secondSection{
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    width: 100%;
-    a{
-        width: 100%;
-        height: fit-content;
-        padding: var(--navPadding);
-        background-color: #7F1F2F;
-        font-size: 35px;
-        color: #F7F5E3;
-        font-family: "Open Sans", sans-serif;
-        line-height: 80%;
-        font-weight: 500;
-        letter-spacing: -2%;
-    }
-    .chosen{
-        background-color: #F7F5E3;
-        color: #000;
-    }
+    gap: 4vw;
 }
-main{
-    width: 100%;
-    padding-left: var(--navFooter);
-}
-footer{
-    bottom: 0;
-    width: 100%;
-    h3{
-        color: #F7F5E3;
-        font-size: 35px;
-        font-family: "Open Sans", sans-serif;
-        font-weight: 600;
-    }
-    p{
-        color: #F7F5E3;
-        font-family: "Open Sans", sans-serif;
-        font-size: 15px;
-        font-weight: 500;
-    }
-}
-.navAndFooter{
-    width: var(--navFooter);
-    height: 100vh;
-    overflow: hidden;
-    border-right: #F7F5E3 5px solid;
-    position: fixed;
+.postersMod4{
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
+    img{
+        width: 30%;
+    }
+}
+.thridSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    align-items: center;
+    img{
+        width: 80%;
+    }
+}
+#event{
+    line-height: 70%;
 }

@@ -1,0 +1,75 @@
+main{
+    gap: 4vw;
+    padding-bottom: 2%;
+    @media (max-width: 1024px) {
+        gap: 5vw;
+    }
+}
+.firstSection{
+    padding-top: 3%;
+}
+.events{
+    position: relative;
+    margin-top: 2%;
+    @media (max-width: 1024px) {
+        margin-top: 0;
+    }
+}
+.secondSection{
+    display: flex;
+    gap: 3vw;
+    width: 100%;
+    .ticket{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        height: 5vw;
+        width: 14vw;
+        img{
+            position: absolute;
+            height: 100%;
+            z-index: -1;
+        }
+        p{
+            color: #5E83E6;
+            font-size: clamp(22px, 2vw, 40px);
+            width: 10vw;
+            text-align: center;
+            line-height: 80%;
+        }
+    }
+}
+.thirdSection{
+    width: 100%;
+    display: flex;
+    gap: 4%;
+    .card{
+        width: 100%;
+        max-width: 50vw;
+        display: flex;
+        flex-direction: column;
+        gap: 2%;
+        img{
+            width: 100%;
+        }
+        p{
+            font-size: clamp(22px, 2vw, 40px);
+        }
+        button{
+            width: 100%;
+            padding: 3%;
+            border-radius: 1vw;
+            background-color: #5E83E6;
+            a{
+                font-size: clamp(30px, 2.5vw, 50px);
+                color: #F7F5E3;
+            }
+        }
+    }
+}
+.sectionForm{
+    img{
+        width: 45%;
+    }
+}

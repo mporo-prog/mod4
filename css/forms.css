@@ -1,0 +1,62 @@
+.sectionForm{
+    width: 100%;
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    img{
+        width: 50%;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+        width: 100%;
+        h3{
+            font-size: clamp(40px, 4vw, 60px);
+            color: #5E83E6;
+        }
+        p{
+            font-size: clamp(22px, 2vw, 40px);
+        }
+        button{
+            width: 100%;
+            border-radius: 1vw;
+            background-color: #F7F5E3;
+            padding: 3%;
+            a{
+                font-size: clamp(30px, 2.5vw, 50px);
+                color: #5E83E6;
+            }
+        }
+        .newsletter{
+            display: flex;
+            flex-direction: column;
+            gap: 0.2vw;
+        }
+        .square{
+            display: flex;
+            gap: 4%;
+            align-items: center;
+            input{
+                width: 2vw;
+                height: 2vw;
+            }
+            p{
+                font-size: clamp(10px, 1vw, 15px);
+            }
+        }
+        .divEmail{
+            display: flex;
+            flex-direction: column;
+            gap: 1vw;
+            .email{
+    
+                gap: 0;
+                width: 100%;
+                font-size: clamp(22px, 2vw, 40px);
+                padding: 3%;
+                border-radius: 1vw;
+            }
+        }
+    }
+}
