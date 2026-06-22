@@ -1,0 +1,27 @@
+body{
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    margin-top: -4%;
+    color: #241616;
+    font-size: clamp(15px, 4vw, 50px);
+    z-index: 1000;
+    @media (max-width: 1024px) {
+        margin-top: -7%;
+    }
+}
+.desktop{
+    width: 100%;
+    z-index: 0;
+    @media (max-width: 1024px) {
+        display: none;
+    }
+}
+.Ipad{
+    display: none;
+    @media (max-width: 1024px) {
+        display: block;
+        width: 100%;
+    }
+}

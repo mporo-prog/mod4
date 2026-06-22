@@ -42,7 +42,7 @@
                 height: 2vw;
             }
             p{
-                font-size: clamp(5px, 1vw, 15px);
+                font-size: clamp(5px, 1vw, 20px);
             }
         }
         .divEmail{
