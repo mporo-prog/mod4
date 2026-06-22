@@ -1,38 +1,46 @@
-main{
+main {
     gap: 2vw;
     padding-bottom: 2%;
+
     @media (max-width: 1024px) {
         gap: 3vw;
     }
 }
-.firstSection{
+
+.firstSection {
     padding-top: 3%;
 }
-.events{
+
+.events {
     position: relative;
     margin-top: 2%;
+
     @media (max-width: 1024px) {
         margin-top: 0;
     }
 }
-.secondSection{
+
+.secondSection {
     display: flex;
     gap: 3vw;
     width: 100%;
-    .ticket{
+
+    .ticket {
         display: flex;
         align-items: center;
         justify-content: center;
         position: relative;
         width: 20%;
         height: 10vw;
-        img{
+
+        img {
             position: absolute;
             width: 100%;
             height: 100%;
             z-index: -1;
         }
-        p{
+
+        p {
             color: #5E83E6;
             font-size: clamp(8px, 2vw, 50px);
             width: 10vw;
@@ -41,37 +49,45 @@ main{
         }
     }
 }
-.thirdSection{
+
+.thirdSection {
     width: 100%;
     display: flex;
     gap: 4%;
-    .card{
+
+    .card {
         width: 100%;
         max-width: 50vw;
         display: flex;
         flex-direction: column;
         gap: 2%;
-        img{
+
+        img {
             width: 100%;
         }
-        p{
+
+        p {
             font-size: clamp(15px, 2.5vw, 50px);
         }
-        button{
+
+        button {
             width: 100%;
             padding: 3%;
             border-radius: 1vw;
             background-color: #5E83E6;
-            a{
+
+            a {
                 font-size: clamp(15px, 2.5vw, 50px);
                 color: #F7F5E3;
             }
         }
     }
 }
-.sectionForm{
+
+.sectionForm {
     margin-top: 4vw;
-    img{
+
+    img {
         width: 45%;
     }
 }

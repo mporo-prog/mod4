@@ -1,13 +1,15 @@
-a{
+a {
     font-family: "Louver";
     font-size: clamp(65px, 14vw, 280px);
 }
-div{
+
+div {
     width: 15vw;
     display: flex;
     justify-content: center;
 }
-nav{
+
+nav {
     display: flex;
     flex-direction: column;
     gap: 3vw;
@@ -15,7 +17,8 @@ nav{
     width: 85vw;
     border-right: #F7F5E3 solid 5px;
     height: 100vh;
-    a{
+
+    a {
         width: 100%;
         height: fit-content;
         padding: 12px 0 12px 20px;

@@ -1,45 +1,57 @@
-:root{
+:root {
     --navFooter: 15%;
     --navPadding: 20px;
 }
-body{
+
+body {
     display: flex;
     flex-direction: row;
     width: 100vw;
     background-color: #000;
 }
-h1, h2, h3, p, a{
+
+h1,
+h2,
+h3,
+p,
+a {
     color: #F7F5E3;
     font-family: "Roboto Condensed", sans-serif;
     line-height: 120%;
     letter-spacing: -2%;
 }
-h1{
+
+h1 {
     font-family: "Louver";
     font-size: clamp(65px, 14vw, 280px);
     line-height: 84%;
 
 }
-h2{
+
+h2 {
     font-family: "Bebas";
     font-size: clamp(80px, 12vw, 220px);
     line-height: 55%;
 }
-button{
+
+button {
     border: 0;
 }
-input{
+
+input {
     border: 0;
     background-color: transparent;
     color: #666666;
     border: 0.3vw solid #F7F5E3;
 }
-nav{
+
+nav {
     display: flex;
     flex-direction: column;
     gap: 10px;
     width: 100%;
-    a{
+
+    a {
         width: 100%;
         height: fit-content;
         padding: 12px 0 12px var(--navPadding);
@@ -50,42 +62,49 @@ nav{
         font-weight: 400;
         letter-spacing: -2%;
     }
-    .chosen{
+
+    .chosen {
         background-color: #F7F5E3;
         color: #000;
     }
 }
-main{
+
+main {
     display: flex;
     flex-direction: column;
     gap: 6vw;
     width: 100%;
     padding: 2% 2% 0 calc(var(--navFooter) + 2%);
     height: fit-content;
+
     @media (max-width: 1024px) {
         padding: 5% 4% 0 4%;
         gap: 9vw;
     }
 }
-footer{
+
+footer {
     bottom: 0;
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 5px;
     padding-left: 20px;
-    h3{
+
+    h3 {
         color: #F7F5E3;
         font-size: clamp(25px, 2vw, 35px);
         font-weight: 600;
     }
-    p{
+
+    p {
         color: #F7F5E3;
         font-size: clamp(10px, 1vw, 15px);
         font-weight: 500;
     }
 }
-.burgerMenu{
+
+.burgerMenu {
     z-index: 1000;
     position: absolute;
     right: 0;
@@ -95,26 +114,31 @@ footer{
     justify-content: space-between;
     width: 4vw;
     height: 3vw;
-    div{
+
+    div {
         width: 100%;
         height: 15%;
         background-color: #F7F5E3;
     }
+
     @media (max-width: 1024px) {
         display: flex;
     }
 }
-.divTitle{
+
+.divTitle {
     position: relative;
     display: flex;
     align-items: end;
     gap: 2%;
-    p{
+
+    p {
         font-size: clamp(12px, 2.5vw, 40px);
         font-weight: 300;
     }
 }
-.navAndFooter{
+
+.navAndFooter {
     padding-bottom: 2%;
     padding-top: 2%;
     width: var(--navFooter);
@@ -125,33 +149,40 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
     @media (max-width: 1024px) {
         display: none;
     }
 }
-.firstSection{
+
+.firstSection {
     position: relative;
-    .text{
+
+    .text {
         display: flex;
         flex-direction: column;
         gap: 2vw;
     }
-    img{
+
+    img {
         position: absolute;
         bottom: 0;
         right: -2.5%;
         z-index: -1;
         width: 28vw;
+
         @media (max-width: 1024px) {
             right: -4.5%;
             width: 30vw;
         }
     }
 }
-.generalInfo{
+
+.generalInfo {
     font-size: clamp(12px, 2.5vw, 40px);
     width: 50%;
     font-weight: 300;
+
     @media (max-width: 1024px) {
         width: 60%;
     }

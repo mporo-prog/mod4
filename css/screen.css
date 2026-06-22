@@ -1,13 +1,15 @@
-.fourthSection{
+.fourthSection {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 4vw;
-    img{
+
+    img {
         width: 100%;
     }
 }
-.rows{
+
+.rows {
     margin-top: -27%;
     overflow: hidden;
     width: 105%;
@@ -15,16 +17,19 @@
     display: flex;
     flex-direction: column;
     gap: 2vw;
-    div{
+
+    div {
         width: 22%;
         height: 14vw;
         border-top-left-radius: 2vw;
         border-top-right-radius: 2vw;
+
         @media (max-width: 1024px) {
             height: 15vw;
         }
     }
-    a{
+
+    a {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -35,28 +40,34 @@
         background-color: #F7F5E3;
         font-size: clamp(16px, 4vw, 80px);
     }
-    .twoRows{
+
+    .twoRows {
         width: 100%;
-        .redRow{
+
+        .redRow {
             width: 100%;
             display: flex;
             justify-content: center;
             gap: 4%;
-            div{
+
+            div {
                 background-color: #7F1F2F;
             }
         }
-        .brownRow{
+
+        .brownRow {
             margin-top: -8.2%;
             width: 100%;
             display: flex;
             justify-content: center;
             gap: 4%;
-            div{
+
+            div {
                 background-color: #241616;
             }
         }
     }
+
     @media (max-width: 1024px) {
         height: 49vw;
         width: 109%;

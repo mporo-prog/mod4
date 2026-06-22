@@ -1,41 +1,49 @@
-main{
+main {
     gap: 4vw;
 }
-p{
+
+p {
     font-size: clamp(15px, 2.5vw, 50px);
     width: 65%;
 }
-.secondSection{
+
+.secondSection {
     display: flex;
     flex-direction: column;
     gap: 2vw;
     width: 100%;
-    img{
+
+    img {
         width: 100%;
     }
-    .link{
+
+    .link {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        button{
+
+        button {
             height: 10%;
             width: 30%;
             padding: 1.5%;
             border-radius: 2vw;
             border: 0;
             background-color: #D17620;
-            a{
+
+            a {
                 font-size: clamp(15px, 2.5vw, 50px);
                 color: #F7F5E3;
             }
         }
     }
 }
-.divTitle{
+
+.divTitle {
     margin-top: 2%;
 }
-.rows{
-    a{
+
+.rows {
+    a {
         color: #F7F5E3;
         background-color: #D17620;
     }

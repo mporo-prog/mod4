@@ -1,56 +1,68 @@
-.sectionForm{
+.sectionForm {
     width: 100%;
     display: flex;
     gap: 5%;
     align-items: center;
-    img{
+
+    img {
         width: 50%;
     }
-    .form{
+
+    .form {
         display: flex;
         flex-direction: column;
         gap: 2vw;
         width: 100%;
-        h3{
+
+        h3 {
             font-size: clamp(20px, 4vw, 60px);
             color: #5E83E6;
         }
-        p{
+
+        p {
             font-size: clamp(12px, 2vw, 40px);
         }
-        button{
+
+        button {
             width: 100%;
             border-radius: 1vw;
             background-color: #F7F5E3;
             padding: 3%;
-            a{
+
+            a {
                 font-size: clamp(15px, 2.5vw, 50px);
                 color: #5E83E6;
             }
         }
-        .newsletter{
+
+        .newsletter {
             display: flex;
             flex-direction: column;
             gap: 0.2vw;
         }
-        .square{
+
+        .square {
             display: flex;
             gap: 4%;
             align-items: center;
-            input{
+
+            input {
                 width: 2vw;
                 height: 2vw;
             }
-            p{
+
+            p {
                 font-size: clamp(5px, 1vw, 20px);
             }
         }
-        .divEmail{
+
+        .divEmail {
             display: flex;
             flex-direction: column;
             gap: 1vw;
-            .email{
-    
+
+            .email {
+
                 gap: 0;
                 width: 100%;
                 font-size: clamp(12px, 2vw, 40px);
